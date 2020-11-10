@@ -4,17 +4,17 @@
   "description": "A new app store that's ad-free.",
   "icons": [
     {
-      "src": "/assets/dream apps logo.png",
+      "src": "dream-apps/assets/dream apps logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/dream apps logo.png",
+      "src": "dream-apps/assets/dream apps logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "dream-apps/index.html",
   "background_color": "#00FF00",
   "display": "standalone",
   "scope": "/",
