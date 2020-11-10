@@ -4,12 +4,12 @@
   "description": "A new app store that's ad-free.",
   "icons": [
     {
-      "src": "assets/dream apps logo.png",
+      "src": "/assets/dream apps logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "assets/dream apps logo.png",
+      "src": "/assets/dream apps logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
