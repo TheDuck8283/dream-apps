@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Offline</title>
+
+    <!-- inline the webpage's stylesheet -->
+    <style>
+      body {
+        font-family: helvetica, arial, sans-serif;
+        margin: 2em;
+      }
+
+      h1 {
+        font-style: italic;
+        color: #373fff;
+      }
+      
+      p {
+        margin-block: 1rem;
+      }
+      
+      button {
+        display: block;
+      }
+    </style>    
+  </head>
+  <body>
+    <h1>You are offline</h1>
+
+    <p>
+      It seems like you're offline. To get your favorite apps, you need to be online.     
+    </p>
+    <p>If you're not offline, try reloading or checking your internet. Click the button below to reload.</p>
+    <button type="button">⤾ Reload</button>
+    
+    <!-- inline the webpage's javascript file -->
+    <script>
+      document.querySelector('button').addEventListener('click', () => {
+        window.location.reload();
+      });
+    </script>
+  </body>
+</html>
